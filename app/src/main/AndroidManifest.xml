@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.yourvideoschannel">
+    package="com.app.besttxt">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
-        android:name="com.app.yourvideoschannel.activities.MyApplication"
+        android:name="com.app.besttxt.activities.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.app.yourvideoschannel.activities.ActivitySplash"
+            android:name="com.app.besttxt.activities.ActivitySplash"
             android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.app.yourvideoschannel.activities.MainActivity"
+            android:name="com.app.besttxt.activities.MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,38 +30,38 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.app.yourvideoschannel.activities.ActivityDetailVideo"
+            android:name="com.app.besttxt.activities.ActivityDetailVideo"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.yourvideoschannel.activities.ActivityVideoByCategory"
+            android:name="com.app.besttxt.activities.ActivityVideoByCategory"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.yourvideoschannel.activities.ActivityRelatedCategory"
+            android:name="com.app.besttxt.activities.ActivityRelatedCategory"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.yourvideoschannel.activities.ActivitySearch"
+            android:name="com.app.besttxt.activities.ActivitySearch"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.yourvideoschannel.activities.ActivityPrivacyPolicy"
+            android:name="com.app.besttxt.activities.ActivityPrivacyPolicy"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.yourvideoschannel.activities.ActivityVideoPlayer"
+            android:name="com.app.besttxt.activities.ActivityVideoPlayer"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.yourvideoschannel.activities.ActivityRtmpPlayer"
+            android:name="com.app.besttxt.activities.ActivityRtmpPlayer"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.yourvideoschannel.activities.ActivityYoutubePlayer"
+            android:name="com.app.besttxt.activities.ActivityYoutubePlayer"
             android:configChanges="orientation|keyboardHidden|screenSize" />
 
         <!-- Firebase Notifications -->
-        <service android:name="com.app.yourvideoschannel.fcm.MyFirebaseMessagingService">
+        <service android:name="com.app.besttxt.fcm.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
-        <service android:name="com.app.yourvideoschannel.fcm.MyFirebaseInstanceIDService">
+        <service android:name="com.app.besttxt.fcm.MyFirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
