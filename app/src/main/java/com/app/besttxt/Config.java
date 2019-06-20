@@ -3,10 +3,10 @@ package com.app.besttxt;
 public class Config {
 
     //put your admin panel url
-    public static final String ADMIN_PANEL_URL = "http://yvc.herokuapp.com";
+    public static final String ADMIN_PANEL_URL = "http://192.168.104.42/jojosiwayy";
 
     //put your api key which obtained from admin panel
-    public static final String API_KEY = "cda11HlY4ZPvj1rNeyhOw0UJLKm8cSEW6aTMiq2fbxuC5s7kpo";
+    public static final String API_KEY = "cda11QbXIO9Z4ly0a2khTFDPA3x6UgSVtCiYRjBqpsfL7w5neN";
 
     //Ads Configuration
     //set true to enable or set false to disable
